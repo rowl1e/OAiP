@@ -10,20 +10,10 @@ int main(){
         printf("Enter the slant height of the cone:\n");
         n=scanf("%f", &l);
     }
-    else{
-        printf("Invalid input\n");
-        system("pause");
-        return 0;
-    }
 
     if(l>0 && n==1){
         printf("Enter the height of the cone:\n");
         n=scanf("%f", &h);
-    }
-    else{
-        printf("Invalid input\n");
-        system("pause");
-        return 0;
     }
 
     if(h>0 && n==1){
