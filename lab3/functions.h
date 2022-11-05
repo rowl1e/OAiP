@@ -83,7 +83,7 @@ void randomNumbersTask1(int arraySize, float *array){
     }
     for(int i = 0; i<arraySize; i++){
         a = rand() % 100;
-        random = rand() % limit - rand() % limit;
+        random = (rand() %  (2 * limit)) - limit;
         checker = a / 100.0 + random; 
         if(checker < limit)
             array[i] = checker;
